@@ -1,7 +1,7 @@
 name: subtitle_toolkit
 description: "A Flutter package for parsing, manipulating, and managing subtitle files. Supports SRT format with features like timing adjustments, speed modifications, and subtitle merging."
 version: 0.0.1
-homepage:
+homepage: https://github.com/JurajMind/subtitle_toolkit
 
 environment:
   sdk: ^3.7.0
