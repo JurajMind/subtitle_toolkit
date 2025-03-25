@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
@@ -257,7 +258,7 @@ class SubtitleParser {
         return Left('Failed to download subtitles: HTTP ${response.statusCode}');
       }
 
-      return parseString(response.body);
+      return parseString(utf8.decode(response.bodyBytes));
     } catch (e) {
       return Left('Failed to download subtitles: $e');
     }
