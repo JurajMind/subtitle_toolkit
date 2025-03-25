@@ -1,0 +1,14 @@
+1
+00:00:01,000 --> 00:00:04,000
+Hello, this is a sample subtitle
+With multiple lines
+
+2
+00:00:04,500 --> 00:00:06,000
+Second subtitle entry
+
+3
+00:00:06,500 --> 00:00:09,000
+This is the third subtitle
+It demonstrates longer text
+Across multiple lines
